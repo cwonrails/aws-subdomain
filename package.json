@@ -3,10 +3,8 @@
   "version": "0.2.1",
   "description": "Create subdomains for AWS without diving into the AWS SDK",
   "main": "lib",
-  "bin": {
-  },
-  "scripts": {
-  },
+  "bin": {},
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/knownasilya/aws-subdomain.git"
