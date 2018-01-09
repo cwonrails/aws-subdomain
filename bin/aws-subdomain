@@ -2,10 +2,10 @@
 
 require('../lib/cli')(process.argv, function (err, data) {
   if (err) {
-    console.error(err);
-    process.exit(1);
+    console.error(err)
+    process.exit(1)
   }
 
-  console.log(data);
-  process.exit();
-});
+  console.log(data)
+  process.exit()
+})

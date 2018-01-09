@@ -30,6 +30,7 @@
   "homepage": "https://github.com/knownasilya/aws-subdomain",
   "devDependencies": {
     "istanbul": "^0.4.5",
+    "standard": "^10.0.3",
     "tap-spec": "^4.1.1",
     "tape": "^4.8.0"
   },
