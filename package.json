@@ -4,11 +4,8 @@
   "description": "Create subdomains for AWS without diving into the AWS SDK",
   "main": "lib",
   "bin": {
-    "aws-subdomain": "bin/aws-subdomain"
   },
   "scripts": {
-    "test": "node test | tap-spec",
-    "test-coverage": "istanbul cover test/index.js --report lcovonly | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -29,16 +26,12 @@
   },
   "homepage": "https://github.com/knownasilya/aws-subdomain",
   "devDependencies": {
-    "istanbul": "^0.4.5",
-    "standard": "^10.0.3",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "standard": "^10.0.3"
   },
   "dependencies": {
     "aws-sdk": "^2.178.0",
     "extend": "^3.0.1",
     "lodash.find": "^4.6.0",
-    "ltcdr": "^2.2.1",
     "minimist": "^1.2.0"
   }
 }
